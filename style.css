@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,300px);
+    grid-auto-rows: 300px;
+    justify-content: center;
+    gap:1rem;
+    
+}
+.content{
+    background-color: aqua;
+    
+}
+.content1{
+    grid-column: span 2;
+}
+.content6{
+    grid-column: span 2;;
+}
