@@ -64,6 +64,7 @@ body {
 }
 .content p {
   font-weight: 600;
+  line-height: 1.5;
 }
 .content h3 {
   font-size: 24px;
@@ -85,6 +86,7 @@ footer {
   position: absolute;
   bottom: 1rem;
   font-size: larger;
+  
    text-shadow:
     0 0 7px #fff,
     0 0 10px #fff,
